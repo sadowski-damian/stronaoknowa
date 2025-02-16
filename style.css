@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 900px) {
+    .right{
+        width: 0px;
+    }
+
+    .right-photo{
+        display: none;
+    }
+
+    .links-line{
+        display: none;
+    }
+    .logo{
+        font-size: 20px;
+        color: #F9FAF8;
+    
+    }
+    .quote{
+        font-size: 20px;
+    }
+    .quote-author{
+        font-size: 15px;
+    }
+    .quote-space{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }
+
+
+header,
+footer,
+main{
+    background-color: #1F2937;
+}
+
+.header-container{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 25px;
+    align-items: center;
+
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.link{
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.link p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 15px;
+
+}
+
+main{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.main-description{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-button{
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    border-radius: 7px;
+    width: 130px;
+    height: 30px;
+    border: #3882F6 solid 1px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 150px 0px;
+    min-height: 400px;
+    
+}
+
+.information-boxes-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.information-main-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px;
+}
+
+.information-box p{
+    margin-top: 5px;
+}
+
+.information-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.right-photo{
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.quote-space{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 200;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote-container{
+    max-width: 1000px;
+}
+
+.quote-author-container{
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.bottom-sign-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.bottom-sign-form{
+    background-color: #3882F6;
+    border: #3882F6 solid 1px;
+    border-radius: 5px;
+    width: 60vw;
+    min-height: 140px;
+    margin: 100px 0px 100px 0px;
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: #F9FAF8 solid 2px;
+    width: 140px;
+    height: 42px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 15px;
+    height: 80px;
+}
+
+.information-images{
+    max-width: 100%;
+    max-height: 100%;
+    aspect-ratio: 5/5;
+    object-fit: cover;
+    border-radius: 5px;
+}
