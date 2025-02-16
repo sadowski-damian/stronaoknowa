@@ -34,6 +34,15 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .bottom-sign-form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+    .form-middle{
+        margin: 10px 0px;
+    }
   }
 
 
@@ -139,6 +148,7 @@ main{
     width: 250px;
     height: 250px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .information-main-text{
@@ -199,7 +209,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
 }
 
 .bottom-sign-form{
@@ -226,6 +235,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .form-button{
