@@ -1,86 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesjonalna naprawa okien. Wymiana szyb, okuć, regulacja i montaż okien. Szybko, tanio i solidnie. Zadzwoń: 604 539 539">
+    <meta name="keywords" content="naprawa okien, wymiana szyb, regulacja okien, montaż okien, okucia okienne, serwis okien, naprawy okien, szklarz, okna PCV, wymiana uszczelek">
+    <meta name="author" content="Sokolka Okna Serwis">
+    <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="PL">
+    <meta name="language" content="Polish">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta property="og:title" content="Naprawa Okien - Profesjonalne Usługi Serwisowe">
+    <meta property="og:description" content="Oferujemy kompleksowe usługi naprawy okien: wymiana szyb, okuć, regulacja i montaż. Szybko i profesjonalnie.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:url" content="https://naprawyokien.com">
+    <meta property="og:site_name" content="Sokolka Okna Serwis">
+    <meta property="og:image" content="https://naprawyokien.com/img/skyscraper.png">
+    <link rel="canonical" href="https://naprawyokien.com">
     <link rel="stylesheet" href="style.css">
-    <title>Website</title>
+    <script src="structured-data.js"></script>
+    <script src="quotes.js"></script>
+    <title>Naprawa Okien - Wymiana Szyb, Regulacja, Montaż | Profesjonalny Serwis</title>
+    <style>
+        .right-photo {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <a href="#main" class="skip-link">Przejdź do głównej treści</a>
+    <header role="banner">
         <div class="header-container">
-        <a class="logo"><strong>Twoje Okna</strong></a>
-        <div class="header-nav">
+        <a class="logo" href="#main" aria-label="Strona główna - Wymiana pakietów szybowych"><strong>Wymiana pakietów szybowych</strong></a>
+        <nav class="header-nav" aria-label="Informacje kontaktowe">
         <ul class="links">
             <li class="link">
-                <p><strong>+48 628 400 120</strong></p>
+                <a href="tel:+48604539539" aria-label="Zadzwoń pod numer 604 539 539">
+                    <p><strong>+48 604 539 539</strong></p>
+                </a>
             </li>
-            <li class="links-line link">
+            <li class="links-line link" aria-hidden="true">
                 <p>|</p>
             </li>
             <li class="link">
-                <p><strong>fryta@gmail.com</strong></p>
+                <a href="mailto:sokolkaoknaserwis@gmail.com" aria-label="Napisz email">
+                    <p><strong>sokolkaoknaserwis@gmail.com</strong></p>
+                </a>
             </li>
         </ul>
-    </div>
+    </nav>
     </div>
     </header>
-    <main>
-        <div class="left">
-        <h1 class="main-text">Twoje okna w najlepszych rękach</h1>
-        <p class="main-description">Oferujemy kompleksowe usługi naprawy i konserwacji okien: wymianę szyb, uszczelek i okuć oraz regulację i montaż nowych okien. Dbamy o Twój komfort i szczelność, zapewniając najwyższą jakość wykonania.</p>
-        <button class="main-button">Napisz do nas!</button>
-        </div>
-        <div class="right">
-            <img class="right-photo" src="img/windowrepair.png" alt="Window repair man">
+    <hr id="header-divider">
+    <main id="main" role="main">
+        <div class="container">
+            <div class="main-content">
+                <section class="left">
+                    <h1 class="main-text">Profesjonalna naprawa okien</h1>
+                    <p class="main-description">Zapewniamy kompleksowe usługi naprawy i konserwacji okien. Wymieniamy szyby, uszczelki, okucia oraz regulujemy i montujemy nowe okna. Nasze doświadczenie gwarantuje najwyższą jakość w konkurencyjnych cenach.</p>
+                    <button class="main-button" type="button" onclick="window.location.href='mailto:sokolkaoknaserwis@gmail.com'" aria-label="Napisz do nas email">Napisz do nas!</button>
+                </section>
+                <aside class="right">
+                    <img class="right-photo" src="./img/windows2.png" alt="Zdjęcie wieżowca - profesjonalny serwis okien">
+                </aside>
+            </div>
         </div>
     </main>
-    <div class="information">
-        <p class="information-main-text">Usługi które wykonujemy</p>
+    <section class="information" role="region" aria-labelledby="services-heading">
+        <h2 id="services-heading" class="information-main-text">Usługi, które wykonujemy</h2>
         <div class="information-boxes-container">
-            <div class="information-box">
-                <div class="box"><img src="img/zbitaszyba.png" alt="zbita szyba" class="information-images"></div>
-                <p>Szybka i fachowa wymiana uszkodzonych szyb.</p>
-            </div>
-            <div class="information-box">
-                <div class="box"><img src="img/montaz.png" alt="zbita szyba" class="information-images"></div>
-                <p>Pewny montaż gwarantujący komfort i bezpieczeństwo.</p>
-            </div>
-            <div class="information-box">
-                <div class="box"><img src="img/okuciaokno.png" alt="zbita szyba" class="information-images"></div>
-                <p>Skuteczna naprawa i wymiana elementów okuć.</p>
-            </div>
-            <div class="information-box">
-                <div class="box"><img src="img/regulacja.png" alt="zbita szyba" class="information-images"></div>
-                <p>Precyzyjna regulacja poprawiająca szczelność i wygodę.</p>
-            </div>
+            <article class="information-box">
+                <div class="box"><img src="img/uszkodzoneokno.png" alt="Uszkodzone okno - wymiana szyb i naprawa" class="information-images"></div>
+                <h3>Wymiana szyb okiennych</h3>
+                <p>Profesjonalna wymiana szyb jednokomorowych i dwukomorowych w krótkim czasie.</p>
+            </article>
+            <article class="information-box">
+                <div class="box"><img src="img/naprawa.png" alt="Montaż nowego okna przez specjalistę" class="information-images"></div>
+                <h3>Montaż i wymiana okien</h3>
+                <p>Precyzyjny montaż nowych okien zapewniający komfort i bezpieczeństwo.</p>
+            </article>
+            <article class="information-box">
+                <div class="box"><img src="img/okucia.png" alt="Okucia okienne - naprawa i wymiana" class="information-images"></div>
+                <h3>Naprawa okuć okiennych</h3>
+                <p>Fachowa naprawa i wymiana okuć w różnych typach okien.</p>
+            </article>
+            <article class="information-box">
+                <div class="box"><img src="img/windows1.png" alt="Regulacja okna - dostosowanie szczelności" class="information-images"></div>
+                <h3>Regulacja i serwis okien</h3>
+                <p>Dokładna regulacja okien poprawiająca szczelność i wygodę użytkowania.</p>
+            </article>
         </div>
-    </div>
-    </div>
-    <div class="quote-space">
+    </section>
+    <section class="quote-space" role="region" aria-label="Cytat inspirujący">
         <div class="quote-container">
-        <p class="quote">Choć doskonałość nie jest osiągalna, dążenie do niej pozwala nam uchwycić esencję rzetelnej pracy. To staranność i zaangażowanie, a nie pieniądze, budują fundamenty prawdziwego sukcesu.</p>
+        <blockquote class="quote" id="rotating-quote">
+            <p id="quote-text">Choć doskonałość nie jest osiągalna, dążenie do niej pozwala nam uchwycić esencję rzetelnej pracy. To staranność i zaangażowanie, a nie pieniądze, budują fundamenty prawdziwego sukcesu.</p>
+        </blockquote>
         </div>
         <div class="quote-author-container">
-            <p class="quote-author">-Vince Lombardi</p>
+            <cite class="quote-author" id="quote-author">-Vince Lombardi</cite>
         </div>
-    </div>
-    <div class="bottom-sign-form-container">
+    </section>
+    <section class="bottom-sign-form-container" role="region" aria-labelledby="contact-heading">
         <div class="bottom-sign-form">
             <div class="form-left">
-                <h3>Skontaktuj się <br>z nami już dziś!</h3>
+                <h3 id="contact-heading">Skontaktuj się <br>z nami już dziś!</h3>
                 <p class="form-middle">Masz pytania lub potrzebujesz wyceny? 
                     <br>Zadzwoń albo napisz, a chętnie pomożemy!</p>
             </div>
             <div class="form-right">
-                <button class="form-button"><strong>sigma@gmail.com</strong></button>
-                <button class="form-button"><strong>637 278 379</strong></button>
+                <button class="form-button" type="button" onclick="window.location.href='mailto:sokolkaoknaserwis@gmail.com'" aria-label="Napisz email na adres sokolkaoknaserwis@gmail.com"><strong>sokolkaoknaserwis@gmail.com</strong></button>
+                <button class="form-button" type="button" onclick="window.location.href='tel:+48604539539'" aria-label="Zadzwoń pod numer 604 539 539"><strong>604 539 539</strong></button>
             </div>
         </div>
-    </div>
-    <footer><strong>Copyright © Damian Sadowski</strong></footer>
+    </section>
+    <footer role="contentinfo"><strong>Copyright © Sokolka Okna Serwis</strong></footer>
 </body>
 
 </html>
